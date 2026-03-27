@@ -1,4 +1,4 @@
-# LiDAR High-Intensity Filter (토이프로젝트) (ROS 2 & PCL)
+# LiDAR High-Intensity Filter (토이프로젝트) 
 높은 intensity 값을 가진 포인트를 필터링 해주는 프로그램
 
 
