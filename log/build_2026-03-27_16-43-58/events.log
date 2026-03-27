@@ -1,0 +1,326 @@
+[0.000000] (-) TimerEvent: {}
+[0.000161] (hi_filter) JobQueued: {'identifier': 'hi_filter', 'dependencies': OrderedDict()}
+[0.000197] (hi_filter) JobStarted: {'identifier': 'hi_filter'}
+[0.004689] (hi_filter) JobProgress: {'identifier': 'hi_filter', 'progress': 'cmake'}
+[0.005099] (hi_filter) Command: {'cmd': ['/home/taewook/.local/bin/cmake', '/home/taewook/carla_workspace/src/hi_filter', '-DCMAKE_INSTALL_PREFIX=/home/taewook/carla_workspace/src/hi_filter/install/hi_filter'], 'cwd': '/home/taewook/carla_workspace/src/hi_filter/build/hi_filter', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'taewook'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/home/taewook/carla_workspace/install/lane_line_msgs/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/taewook'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/taewook/carla_workspace'), ('TERM_PROGRAM_VERSION', '1.103.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1718'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2127'), ('BUNDLED_DEBUGPY_PATH', '/home/taewook/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3193372'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/taewook/carla_workspace/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'taewook'), ('JOURNAL_STREAM', '8:12632'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '44233'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'taewook'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/home/taewook/.local/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/taewook/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/taewook/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts:/home/taewook/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/taewook:@/tmp/.ICE-unix/2086,unix/taewook:/tmp/.ICE-unix/2086'), ('INVOCATION_ID', 'fea59eb402184632a5092d8d9697f93e'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/taewook/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-22b4c4255e8fbd86.txt'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/taewook/.config/Code/User/workspaceStorage/600e2a60da9c03d7ed67b5ece6b2bd65/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-402d4e617f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '11'), ('AMENT_PREFIX_PATH', '/home/taewook/carla_workspace/install/hi_filter:/home/taewook/carla_workspace/install/py_advanced_lane_lines:/home/taewook/carla_workspace/install/monodetr_dgwa:/home/taewook/carla_workspace/install/lane_line_msgs:/home/taewook/carla_workspace/install/face_aware_3dbbox:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/taewook/carla_workspace/src/hi_filter/build/hi_filter'), ('ENABLE_IDE_INTEGRATION', 'true'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('UE4_ROOT', '/home/taewook/UnrealEngine_4.26'), ('PYTHONPATH', '/home/taewook/carla_workspace/install/py_advanced_lane_lines/lib/python3.10/site-packages:/home/taewook/carla_workspace/install/monodetr_dgwa/lib/python3.10/site-packages:/home/taewook/carla_workspace/install/lane_line_msgs/local/lib/python3.10/dist-packages:/home/taewook/carla_workspace/install/face_aware_3dbbox/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/taewook/carla_workspace/install/hi_filter:/home/taewook/carla_workspace/install/lane_line_msgs:/home/taewook/carla_workspace/install/py_advanced_lane_lines:/home/taewook/carla_workspace/install/monodetr_dgwa:/home/taewook/carla_workspace/install/face_aware_3dbbox:/opt/ros/humble')]), 'shell': False}
+[0.050757] (hi_filter) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.050932] (hi_filter) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.050988] (hi_filter) StderrLine: {'line': b'  CMake.\n'}
+[0.051038] (hi_filter) StderrLine: {'line': b'\n'}
+[0.051085] (hi_filter) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.051133] (hi_filter) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.051180] (hi_filter) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.051228] (hi_filter) StderrLine: {'line': b'\n'}
+[0.051276] (hi_filter) StderrLine: {'line': b'\x1b[0m\n'}
+[0.080432] (hi_filter) StdoutLine: {'line': b'-- The C compiler identification is GNU 12.3.0\n'}
+[0.099613] (-) TimerEvent: {}
+[0.120640] (hi_filter) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.125120] (hi_filter) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.164844] (hi_filter) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.174149] (hi_filter) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.174367] (hi_filter) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.174713] (hi_filter) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.183348] (hi_filter) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199699] (-) TimerEvent: {}
+[0.223941] (hi_filter) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.233493] (hi_filter) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.233813] (hi_filter) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.234364] (hi_filter) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.242464] (hi_filter) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299783] (-) TimerEvent: {}
+[0.353228] (hi_filter) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[0.399864] (-) TimerEvent: {}
+[0.413839] (hi_filter) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.416167] (hi_filter) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.451663] (hi_filter) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.455284] (hi_filter) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.461765] (hi_filter) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.471094] (hi_filter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.482815] (hi_filter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.499948] (-) TimerEvent: {}
+[0.516916] (hi_filter) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.518998] (hi_filter) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.581198] (hi_filter) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[0.600053] (-) TimerEvent: {}
+[0.601630] (hi_filter) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[0.632329] (hi_filter) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.639361] (hi_filter) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.678080] (hi_filter) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.678738] (hi_filter) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[0.700141] (-) TimerEvent: {}
+[0.719725] (hi_filter) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.748986] (hi_filter) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):\n'}
+[0.749138] (hi_filter) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[0.749195] (hi_filter) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[0.749247] (hi_filter) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[0.749297] (hi_filter) StderrLine: {'line': b'\n'}
+[0.749354] (hi_filter) StderrLine: {'line': b'  CMake variable EIGEN_ROOT is set to:\n'}
+[0.749401] (hi_filter) StderrLine: {'line': b'\n'}
+[0.749448] (hi_filter) StderrLine: {'line': b'    /usr/include/eigen3\n'}
+[0.749496] (hi_filter) StderrLine: {'line': b'\n'}
+[0.749543] (hi_filter) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[0.749589] (hi_filter) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[0.749635] (hi_filter) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.749681] (hi_filter) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)\n'}
+[0.749727] (hi_filter) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)\n'}
+[0.749778] (hi_filter) StderrLine: {'line': b'  CMakeLists.txt:29 (find_package)\n'}
+[0.749829] (hi_filter) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.749876] (hi_filter) StderrLine: {'line': b'\x1b[0m\n'}
+[0.752310] (hi_filter) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.760461] (hi_filter) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[0.779720] (hi_filter) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1")\n'}
+[0.779877] (hi_filter) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.780061] (hi_filter) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:128 (find_package):\n'}
+[0.780121] (hi_filter) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[0.780170] (hi_filter) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[0.780218] (hi_filter) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[0.780265] (hi_filter) StderrLine: {'line': b'\n'}
+[0.780311] (hi_filter) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.780357] (hi_filter) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:297 (find_boost)\n'}
+[0.780404] (hi_filter) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)\n'}
+[0.780450] (hi_filter) StderrLine: {'line': b'  CMakeLists.txt:29 (find_package)\n'}
+[0.780497] (hi_filter) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.780543] (hi_filter) StderrLine: {'line': b'\x1b[0m\n'}
+[0.796985] (hi_filter) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization\n'}
+[0.798103] (hi_filter) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):\n'}
+[0.798172] (hi_filter) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[0.798199] (hi_filter) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[0.798221] (hi_filter) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[0.798242] (hi_filter) StderrLine: {'line': b'\n'}
+[0.798262] (hi_filter) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[0.798282] (hi_filter) StderrLine: {'line': b'\n'}
+[0.798301] (hi_filter) StderrLine: {'line': b'    /usr\n'}
+[0.798321] (hi_filter) StderrLine: {'line': b'\n'}
+[0.798340] (hi_filter) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[0.798360] (hi_filter) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[0.798379] (hi_filter) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.798399] (hi_filter) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)\n'}
+[0.798421] (hi_filter) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)\n'}
+[0.798439] (hi_filter) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)\n'}
+[0.798458] (hi_filter) StderrLine: {'line': b'  CMakeLists.txt:29 (find_package)\n'}
+[0.798477] (hi_filter) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.798496] (hi_filter) StderrLine: {'line': b'\x1b[0m\n'}
+[0.800187] (-) TimerEvent: {}
+[0.807967] (hi_filter) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[0.815980] (hi_filter) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[0.843761] (hi_filter) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so\n'}
+[0.843869] (hi_filter) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.869088] (hi_filter) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so\n'}
+[0.874850] (hi_filter) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX\n'}
+[0.900278] (-) TimerEvent: {}
+[0.958067] (hi_filter) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1")\n'}
+[0.958209] (hi_filter) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C\n'}
+[0.960457] (hi_filter) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0")\n'}
+[0.974373] (hi_filter) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")\n'}
+[0.996078] (hi_filter) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37")\n'}
+[1.000334] (-) TimerEvent: {}
+[1.006114] (hi_filter) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0")\n'}
+[1.100402] (-) TimerEvent: {}
+[1.115005] (hi_filter) StdoutLine: {'line': b'-- Found X11: /usr/include\n'}
+[1.115179] (hi_filter) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[1.155296] (hi_filter) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[1.155410] (hi_filter) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[1.193397] (hi_filter) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[1.193511] (hi_filter) StdoutLine: {'line': b'-- Looking for connect\n'}
+[1.200481] (-) TimerEvent: {}
+[1.233803] (hi_filter) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[1.233921] (hi_filter) StdoutLine: {'line': b'-- Looking for remove\n'}
+[1.271900] (hi_filter) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.272013] (hi_filter) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[1.300568] (-) TimerEvent: {}
+[1.309627] (hi_filter) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[1.309779] (hi_filter) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.345829] (hi_filter) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.400652] (-) TimerEvent: {}
+[1.433888] (hi_filter) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7")\n'}
+[1.435762] (hi_filter) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so\n'}
+[1.438148] (hi_filter) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3")\n'}
+[1.439649] (hi_filter) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5")\n'}
+[1.450369] (hi_filter) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80")\n'}
+[1.463300] (hi_filter) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")\n'}
+[1.467988] (hi_filter) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1")\n'}
+[1.471811] (hi_filter) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp\n'}
+[1.500755] (-) TimerEvent: {}
+[1.522188] (hi_filter) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.529809] (hi_filter) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[1.552580] (hi_filter) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so\n'}
+[1.553282] (hi_filter) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0")\n'}
+[1.553405] (hi_filter) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.586608] (hi_filter) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33")\n'}
+[1.586811] (hi_filter) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.586876] (hi_filter) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[1.600804] (-) TimerEvent: {}
+[1.701033] (-) TimerEvent: {}
+[1.756105] (hi_filter) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:128 (find_package):\n'}
+[1.756263] (hi_filter) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[1.756318] (hi_filter) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[1.756366] (hi_filter) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[1.756413] (hi_filter) StderrLine: {'line': b'\n'}
+[1.756459] (hi_filter) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.756505] (hi_filter) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:297 (find_boost)\n'}
+[1.756550] (hi_filter) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)\n'}
+[1.756595] (hi_filter) StderrLine: {'line': b'  CMakeLists.txt:29 (find_package)\n'}
+[1.756641] (hi_filter) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.756686] (hi_filter) StderrLine: {'line': b'\x1b[0m\n'}
+[1.764146] (hi_filter) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.768032] (hi_filter) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.771851] (hi_filter) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.801117] (-) TimerEvent: {}
+[1.901354] (-) TimerEvent: {}
+[1.952935] (hi_filter) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.001486] (-) TimerEvent: {}
+[2.101734] (-) TimerEvent: {}
+[2.129910] (hi_filter) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.201827] (-) TimerEvent: {}
+[2.302096] (-) TimerEvent: {}
+[2.302979] (hi_filter) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[2.304089] (hi_filter) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so\n'}
+[2.304179] (hi_filter) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[2.304977] (hi_filter) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so\n'}
+[2.305074] (hi_filter) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[2.305816] (hi_filter) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so\n'}
+[2.305904] (hi_filter) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[2.306674] (hi_filter) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so\n'}
+[2.306750] (hi_filter) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[2.307514] (hi_filter) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so\n'}
+[2.307581] (hi_filter) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[2.308297] (hi_filter) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so\n'}
+[2.308408] (hi_filter) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[2.308614] (hi_filter) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12\n'}
+[2.308698] (hi_filter) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[2.308902] (hi_filter) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12\n'}
+[2.308968] (hi_filter) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[2.309729] (hi_filter) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so\n'}
+[2.309866] (hi_filter) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[2.310634] (hi_filter) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so\n'}
+[2.310764] (hi_filter) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[2.311548] (hi_filter) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so\n'}
+[2.311639] (hi_filter) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[2.312379] (hi_filter) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so\n'}
+[2.312657] (hi_filter) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[2.313424] (hi_filter) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so\n'}
+[2.313562] (hi_filter) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[2.314334] (hi_filter) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so\n'}
+[2.314450] (hi_filter) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[2.315206] (hi_filter) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so\n'}
+[2.315351] (hi_filter) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[2.316141] (hi_filter) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so\n'}
+[2.316266] (hi_filter) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[2.317014] (hi_filter) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so\n'}
+[2.317136] (hi_filter) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[2.317925] (hi_filter) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so\n'}
+[2.318108] (hi_filter) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[2.318992] (hi_filter) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so\n'}
+[2.319096] (hi_filter) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[2.319883] (hi_filter) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so\n'}
+[2.320228] (hi_filter) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[2.320487] (hi_filter) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12\n'}
+[2.320555] (hi_filter) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[2.320801] (hi_filter) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12\n'}
+[2.320870] (hi_filter) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[2.321148] (hi_filter) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12\n'}
+[2.321214] (hi_filter) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[2.322015] (hi_filter) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so\n'}
+[2.322146] (hi_filter) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[2.322929] (hi_filter) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so\n'}
+[2.323466] (hi_filter) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL\n'}
+[2.325007] (hi_filter) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[2.399870] (hi_filter) StdoutLine: {'line': b'-- Configuring done (2.4s)\n'}
+[2.402168] (-) TimerEvent: {}
+[2.418848] (hi_filter) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.421567] (hi_filter) StdoutLine: {'line': b'-- Build files have been written to: /home/taewook/carla_workspace/src/hi_filter/build/hi_filter\n'}
+[2.431986] (hi_filter) CommandEnded: {'returncode': 0}
+[2.432667] (hi_filter) JobProgress: {'identifier': 'hi_filter', 'progress': 'build'}
+[2.433365] (hi_filter) Command: {'cmd': ['/home/taewook/.local/bin/cmake', '--build', '/home/taewook/carla_workspace/src/hi_filter/build/hi_filter', '--', '-j24', '-l24'], 'cwd': '/home/taewook/carla_workspace/src/hi_filter/build/hi_filter', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'taewook'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/home/taewook/carla_workspace/install/lane_line_msgs/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/taewook'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/taewook/carla_workspace'), ('TERM_PROGRAM_VERSION', '1.103.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1718'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2127'), ('BUNDLED_DEBUGPY_PATH', '/home/taewook/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3193372'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/taewook/carla_workspace/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'taewook'), ('JOURNAL_STREAM', '8:12632'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '44233'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'taewook'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/home/taewook/.local/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/taewook/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/taewook/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts:/home/taewook/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/taewook:@/tmp/.ICE-unix/2086,unix/taewook:/tmp/.ICE-unix/2086'), ('INVOCATION_ID', 'fea59eb402184632a5092d8d9697f93e'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/taewook/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-22b4c4255e8fbd86.txt'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/taewook/.config/Code/User/workspaceStorage/600e2a60da9c03d7ed67b5ece6b2bd65/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-402d4e617f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '11'), ('AMENT_PREFIX_PATH', '/home/taewook/carla_workspace/install/hi_filter:/home/taewook/carla_workspace/install/py_advanced_lane_lines:/home/taewook/carla_workspace/install/monodetr_dgwa:/home/taewook/carla_workspace/install/lane_line_msgs:/home/taewook/carla_workspace/install/face_aware_3dbbox:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/taewook/carla_workspace/src/hi_filter/build/hi_filter'), ('ENABLE_IDE_INTEGRATION', 'true'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('UE4_ROOT', '/home/taewook/UnrealEngine_4.26'), ('PYTHONPATH', '/home/taewook/carla_workspace/install/py_advanced_lane_lines/lib/python3.10/site-packages:/home/taewook/carla_workspace/install/monodetr_dgwa/lib/python3.10/site-packages:/home/taewook/carla_workspace/install/lane_line_msgs/local/lib/python3.10/dist-packages:/home/taewook/carla_workspace/install/face_aware_3dbbox/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/taewook/carla_workspace/install/hi_filter:/home/taewook/carla_workspace/install/lane_line_msgs:/home/taewook/carla_workspace/install/py_advanced_lane_lines:/home/taewook/carla_workspace/install/monodetr_dgwa:/home/taewook/carla_workspace/install/face_aware_3dbbox:/opt/ros/humble')]), 'shell': False}
+[2.494986] (hi_filter) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hi_filter.dir/src/hi_filter_node.cpp.o\x1b[0m\n'}
+[2.502289] (-) TimerEvent: {}
+[2.602526] (-) TimerEvent: {}
+[2.702791] (-) TimerEvent: {}
+[2.803052] (-) TimerEvent: {}
+[2.903299] (-) TimerEvent: {}
+[3.003535] (-) TimerEvent: {}
+[3.103739] (-) TimerEvent: {}
+[3.203936] (-) TimerEvent: {}
+[3.304128] (-) TimerEvent: {}
+[3.404321] (-) TimerEvent: {}
+[3.504512] (-) TimerEvent: {}
+[3.604736] (-) TimerEvent: {}
+[3.704937] (-) TimerEvent: {}
+[3.805126] (-) TimerEvent: {}
+[3.905312] (-) TimerEvent: {}
+[4.005506] (-) TimerEvent: {}
+[4.105813] (-) TimerEvent: {}
+[4.206006] (-) TimerEvent: {}
+[4.306197] (-) TimerEvent: {}
+[4.406387] (-) TimerEvent: {}
+[4.506605] (-) TimerEvent: {}
+[4.606826] (-) TimerEvent: {}
+[4.707018] (-) TimerEvent: {}
+[4.804727] (hi_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taewook/carla_workspace/src/hi_filter/src/hi_filter_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HiFilter::lidar_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.804848] (hi_filter) StderrLine: {'line': b'\x1b[01m\x1b[K/home/taewook/carla_workspace/src/hi_filter/src/hi_filter_node.cpp:34:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.804878] (hi_filter) StderrLine: {'line': b'   34 |         for(int i=0; \x1b[01;35m\x1b[Ki < p_size\x1b[m\x1b[K; i++){\n'}
+[4.804901] (hi_filter) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~^~~~~~~~\x1b[m\x1b[K\n'}
+[4.807068] (-) TimerEvent: {}
+[4.907202] (-) TimerEvent: {}
+[5.007382] (-) TimerEvent: {}
+[5.107574] (-) TimerEvent: {}
+[5.207799] (-) TimerEvent: {}
+[5.307994] (-) TimerEvent: {}
+[5.408188] (-) TimerEvent: {}
+[5.508409] (-) TimerEvent: {}
+[5.608612] (-) TimerEvent: {}
+[5.708838] (-) TimerEvent: {}
+[5.809051] (-) TimerEvent: {}
+[5.909266] (-) TimerEvent: {}
+[6.009451] (-) TimerEvent: {}
+[6.109637] (-) TimerEvent: {}
+[6.209838] (-) TimerEvent: {}
+[6.310062] (-) TimerEvent: {}
+[6.410255] (-) TimerEvent: {}
+[6.510440] (-) TimerEvent: {}
+[6.610622] (-) TimerEvent: {}
+[6.710807] (-) TimerEvent: {}
+[6.810993] (-) TimerEvent: {}
+[6.911199] (-) TimerEvent: {}
+[7.011377] (-) TimerEvent: {}
+[7.111561] (-) TimerEvent: {}
+[7.211744] (-) TimerEvent: {}
+[7.311964] (-) TimerEvent: {}
+[7.412155] (-) TimerEvent: {}
+[7.512369] (-) TimerEvent: {}
+[7.612553] (-) TimerEvent: {}
+[7.712774] (-) TimerEvent: {}
+[7.812954] (-) TimerEvent: {}
+[7.913138] (-) TimerEvent: {}
+[8.013372] (-) TimerEvent: {}
+[8.054127] (hi_filter) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking CXX executable hi_filter\x1b[0m\n'}
+[8.113455] (-) TimerEvent: {}
+[8.213641] (-) TimerEvent: {}
+[8.313807] (-) TimerEvent: {}
+[8.404560] (hi_filter) StdoutLine: {'line': b'[100%] Built target hi_filter\n'}
+[8.412632] (hi_filter) CommandEnded: {'returncode': 0}
+[8.412966] (hi_filter) JobProgress: {'identifier': 'hi_filter', 'progress': 'install'}
+[8.413867] (-) TimerEvent: {}
+[8.462963] (hi_filter) Command: {'cmd': ['/home/taewook/.local/bin/cmake', '--install', '/home/taewook/carla_workspace/src/hi_filter/build/hi_filter'], 'cwd': '/home/taewook/carla_workspace/src/hi_filter/build/hi_filter', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'taewook'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/home/taewook/carla_workspace/install/lane_line_msgs/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/taewook'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/taewook/carla_workspace'), ('TERM_PROGRAM_VERSION', '1.103.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1718'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2127'), ('BUNDLED_DEBUGPY_PATH', '/home/taewook/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3193372'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/taewook/carla_workspace/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'taewook'), ('JOURNAL_STREAM', '8:12632'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '44233'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'taewook'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/home/taewook/.local/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/taewook/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/taewook/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts:/home/taewook/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/taewook:@/tmp/.ICE-unix/2086,unix/taewook:/tmp/.ICE-unix/2086'), ('INVOCATION_ID', 'fea59eb402184632a5092d8d9697f93e'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/taewook/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-22b4c4255e8fbd86.txt'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/taewook/.config/Code/User/workspaceStorage/600e2a60da9c03d7ed67b5ece6b2bd65/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-402d4e617f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '11'), ('AMENT_PREFIX_PATH', '/home/taewook/carla_workspace/install/hi_filter:/home/taewook/carla_workspace/install/py_advanced_lane_lines:/home/taewook/carla_workspace/install/monodetr_dgwa:/home/taewook/carla_workspace/install/lane_line_msgs:/home/taewook/carla_workspace/install/face_aware_3dbbox:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/taewook/carla_workspace/src/hi_filter/build/hi_filter'), ('ENABLE_IDE_INTEGRATION', 'true'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('UE4_ROOT', '/home/taewook/UnrealEngine_4.26'), ('PYTHONPATH', '/home/taewook/carla_workspace/install/py_advanced_lane_lines/lib/python3.10/site-packages:/home/taewook/carla_workspace/install/monodetr_dgwa/lib/python3.10/site-packages:/home/taewook/carla_workspace/install/lane_line_msgs/local/lib/python3.10/dist-packages:/home/taewook/carla_workspace/install/face_aware_3dbbox/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/taewook/carla_workspace/install/hi_filter:/home/taewook/carla_workspace/install/lane_line_msgs:/home/taewook/carla_workspace/install/py_advanced_lane_lines:/home/taewook/carla_workspace/install/monodetr_dgwa:/home/taewook/carla_workspace/install/face_aware_3dbbox:/opt/ros/humble')]), 'shell': False}
+[8.513450] (hi_filter) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.513550] (hi_filter) StdoutLine: {'line': b'-- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/lib/hi_filter/hi_filter\n'}
+[8.513921] (-) TimerEvent: {}
+[8.515062] (hi_filter) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/taewook/carla_workspace/src/hi_filter/install/hi_filter/lib/hi_filter/hi_filter" to ""\n'}
+[8.515160] (hi_filter) StdoutLine: {'line': b'-- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/ament_index/resource_index/package_run_dependencies/hi_filter\n'}
+[8.515719] (hi_filter) StdoutLine: {'line': b'-- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/ament_index/resource_index/parent_prefix_path/hi_filter\n'}
+[8.515843] (hi_filter) StdoutLine: {'line': b'-- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/environment/ament_prefix_path.sh\n'}
+[8.515902] (hi_filter) StdoutLine: {'line': b'-- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/environment/ament_prefix_path.dsv\n'}
+[8.515959] (hi_filter) StdoutLine: {'line': b'-- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/environment/path.sh\n'}
+[8.516014] (hi_filter) StdoutLine: {'line': b'-- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/environment/path.dsv\n'}
+[8.516071] (hi_filter) StdoutLine: {'line': b'-- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/local_setup.bash\n'}
+[8.516127] (hi_filter) StdoutLine: {'line': b'-- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/local_setup.sh\n'}
+[8.516185] (hi_filter) StdoutLine: {'line': b'-- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/local_setup.zsh\n'}
+[8.516241] (hi_filter) StdoutLine: {'line': b'-- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/local_setup.dsv\n'}
+[8.516283] (hi_filter) StdoutLine: {'line': b'-- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/package.dsv\n'}
+[8.516338] (hi_filter) StdoutLine: {'line': b'-- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/ament_index/resource_index/packages/hi_filter\n'}
+[8.516384] (hi_filter) StdoutLine: {'line': b'-- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/cmake/hi_filterConfig.cmake\n'}
+[8.516414] (hi_filter) StdoutLine: {'line': b'-- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/cmake/hi_filterConfig-version.cmake\n'}
+[8.516461] (hi_filter) StdoutLine: {'line': b'-- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/package.xml\n'}
+[8.517479] (hi_filter) CommandEnded: {'returncode': 0}
+[8.524781] (hi_filter) JobEnded: {'identifier': 'hi_filter', 'rc': 0}
+[8.525112] (-) EventReactorShutdown: {}

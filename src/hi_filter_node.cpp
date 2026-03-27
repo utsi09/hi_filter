@@ -32,7 +32,7 @@ private:
         size_t p_size = cloud->points.size();
         auto high_cloud = std::make_shared<pcl::PointCloud<pcl::PointXYZI>>();
         for(int i=0; i < p_size; i++){
-            if(cloud->points[i].intensity > 50.0){
+            if(cloud->points[i].intensity > 200.0){
                 high_cloud->push_back(cloud->points[i]);
             }
         }

@@ -1,0 +1,233 @@
+[0.006s] Invoking command in '/home/taewook/carla_workspace/src/hi_filter/build/hi_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taewook/carla_workspace/install/py_advanced_lane_lines:/home/taewook/carla_workspace/install/monodetr_dgwa:/home/taewook/carla_workspace/install/face_aware_3dbbox:/opt/ros/humble /home/taewook/.local/bin/cmake /home/taewook/carla_workspace/src/hi_filter -DCMAKE_INSTALL_PREFIX=/home/taewook/carla_workspace/src/hi_filter/install/hi_filter
+[0.051s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.051s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.051s]   CMake.
+[0.051s] 
+[0.051s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.051s]   to tell CMake that the project requires at least <min> but has been updated
+[0.051s]   to work with policies introduced by <max> or earlier.
+[0.051s] 
+[0.051s] [0m
+[0.080s] -- The C compiler identification is GNU 12.3.0
+[0.121s] -- The CXX compiler identification is GNU 11.4.0
+[0.125s] -- Detecting C compiler ABI info
+[0.165s] -- Detecting C compiler ABI info - done
+[0.174s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.174s] -- Detecting C compile features
+[0.175s] -- Detecting C compile features - done
+[0.183s] -- Detecting CXX compiler ABI info
+[0.224s] -- Detecting CXX compiler ABI info - done
+[0.233s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.234s] -- Detecting CXX compile features
+[0.234s] -- Detecting CXX compile features - done
+[0.242s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.353s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.414s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.416s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.452s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.455s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.462s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.471s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.483s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.517s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.519s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.581s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[0.602s] -- Found FastRTPS: /opt/ros/humble/include
+[0.632s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.639s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.678s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.679s] -- Found Threads: TRUE
+[0.720s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.749s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+[0.749s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.749s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.749s]   cmake_policy command to set the policy and suppress this warning.
+[0.749s] 
+[0.749s]   CMake variable EIGEN_ROOT is set to:
+[0.749s] 
+[0.749s]     /usr/include/eigen3
+[0.749s] 
+[0.749s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.749s]   .cmake module might still use it.
+[0.749s] Call Stack (most recent call first):
+[0.750s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+[0.750s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[0.750s]   CMakeLists.txt:29 (find_package)
+[0.750s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.750s] [0m
+[0.752s] -- Checking for module 'eigen3'
+[0.760s] --   Found eigen3, version 3.4.0
+[0.780s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1")
+[0.780s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.780s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:128 (find_package):
+[0.780s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[0.780s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[0.780s]   set the policy and suppress this warning.
+[0.780s] 
+[0.780s] Call Stack (most recent call first):
+[0.780s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:297 (find_boost)
+[0.780s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[0.780s]   CMakeLists.txt:29 (find_package)
+[0.780s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.780s] [0m
+[0.797s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization
+[0.798s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+[0.798s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.798s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.798s]   cmake_policy command to set the policy and suppress this warning.
+[0.798s] 
+[0.798s]   CMake variable FLANN_ROOT is set to:
+[0.798s] 
+[0.798s]     /usr
+[0.798s] 
+[0.798s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.798s]   .cmake module might still use it.
+[0.798s] Call Stack (most recent call first):
+[0.798s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+[0.798s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+[0.798s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[0.798s]   CMakeLists.txt:29 (find_package)
+[0.798s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.798s] [0m
+[0.808s] -- Checking for module 'flann'
+[0.816s] --   Found flann, version 1.9.1
+[0.844s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so
+[0.844s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.869s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so
+[0.875s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX
+[0.958s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1")
+[0.958s] -- Found MPI: TRUE (found version "3.1") found components: C
+[0.960s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0")
+[0.974s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")
+[0.996s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37")
+[1.006s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0")
+[1.115s] -- Found X11: /usr/include
+[1.115s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.155s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.155s] -- Looking for gethostbyname
+[1.193s] -- Looking for gethostbyname - found
+[1.193s] -- Looking for connect
+[1.234s] -- Looking for connect - found
+[1.234s] -- Looking for remove
+[1.272s] -- Looking for remove - found
+[1.272s] -- Looking for shmat
+[1.310s] -- Looking for shmat - found
+[1.310s] -- Looking for IceConnectionNumber in ICE
+[1.346s] -- Looking for IceConnectionNumber in ICE - found
+[1.434s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7")
+[1.436s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so
+[1.438s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3")
+[1.439s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5")
+[1.450s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80")
+[1.463s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")
+[1.468s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1")
+[1.472s] -- Found utf8cpp: /usr/include/utf8cpp
+[1.522s] -- Checking for module 'libusb-1.0'
+[1.530s] --   Found libusb-1.0, version 1.0.25
+[1.552s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
+[1.553s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0")
+[1.553s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.587s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33")
+[1.587s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.587s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.756s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:128 (find_package):
+[1.756s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[1.756s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[1.756s]   set the policy and suppress this warning.
+[1.756s] 
+[1.756s] Call Stack (most recent call first):
+[1.756s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:297 (find_boost)
+[1.756s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[1.756s]   CMakeLists.txt:29 (find_package)
+[1.756s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.757s] [0m
+[1.764s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.768s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.772s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.953s] -- Found Qhull version 8.0.2
+[2.130s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.303s] -- looking for PCL_COMMON
+[2.304s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so
+[2.304s] -- looking for PCL_KDTREE
+[2.305s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
+[2.305s] -- looking for PCL_OCTREE
+[2.306s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
+[2.306s] -- looking for PCL_SEARCH
+[2.307s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so
+[2.307s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.307s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so
+[2.307s] -- looking for PCL_FILTERS
+[2.308s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so
+[2.308s] -- looking for PCL_2D
+[2.308s] -- Found PCL_2D: /usr/include/pcl-1.12
+[2.309s] -- looking for PCL_GEOMETRY
+[2.309s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12
+[2.309s] -- looking for PCL_IO
+[2.310s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so
+[2.310s] -- looking for PCL_FEATURES
+[2.310s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so
+[2.311s] -- looking for PCL_ML
+[2.311s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so
+[2.311s] -- looking for PCL_SEGMENTATION
+[2.312s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so
+[2.312s] -- looking for PCL_VISUALIZATION
+[2.313s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so
+[2.313s] -- looking for PCL_SURFACE
+[2.314s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so
+[2.314s] -- looking for PCL_REGISTRATION
+[2.315s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so
+[2.315s] -- looking for PCL_KEYPOINTS
+[2.316s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so
+[2.316s] -- looking for PCL_TRACKING
+[2.317s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so
+[2.317s] -- looking for PCL_RECOGNITION
+[2.318s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so
+[2.318s] -- looking for PCL_STEREO
+[2.319s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so
+[2.319s] -- looking for PCL_APPS
+[2.320s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so
+[2.320s] -- looking for PCL_IN_HAND_SCANNER
+[2.320s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12
+[2.320s] -- looking for PCL_MODELER
+[2.321s] -- Found PCL_MODELER: /usr/include/pcl-1.12
+[2.321s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.321s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12
+[2.321s] -- looking for PCL_OUTOFCORE
+[2.322s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so
+[2.322s] -- looking for PCL_PEOPLE
+[2.323s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so
+[2.323s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL
+[2.325s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[2.400s] -- Configuring done (2.4s)
+[2.419s] -- Generating done (0.0s)
+[2.421s] -- Build files have been written to: /home/taewook/carla_workspace/src/hi_filter/build/hi_filter
+[2.432s] Invoked command in '/home/taewook/carla_workspace/src/hi_filter/build/hi_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taewook/carla_workspace/install/py_advanced_lane_lines:/home/taewook/carla_workspace/install/monodetr_dgwa:/home/taewook/carla_workspace/install/face_aware_3dbbox:/opt/ros/humble /home/taewook/.local/bin/cmake /home/taewook/carla_workspace/src/hi_filter -DCMAKE_INSTALL_PREFIX=/home/taewook/carla_workspace/src/hi_filter/install/hi_filter
+[2.434s] Invoking command in '/home/taewook/carla_workspace/src/hi_filter/build/hi_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taewook/carla_workspace/install/py_advanced_lane_lines:/home/taewook/carla_workspace/install/monodetr_dgwa:/home/taewook/carla_workspace/install/face_aware_3dbbox:/opt/ros/humble /home/taewook/.local/bin/cmake --build /home/taewook/carla_workspace/src/hi_filter/build/hi_filter -- -j24 -l24
+[2.495s] [ 50%] [32mBuilding CXX object CMakeFiles/hi_filter.dir/src/hi_filter_node.cpp.o[0m
+[4.805s] [01m[K/home/taewook/carla_workspace/src/hi_filter/src/hi_filter_node.cpp:[m[K In member function ‘[01m[Kvoid HiFilter::lidar_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr) const[m[K’:
+[4.805s] [01m[K/home/taewook/carla_workspace/src/hi_filter/src/hi_filter_node.cpp:34:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.805s]    34 |         for(int i=0; [01;35m[Ki < p_size[m[K; i++){
+[4.805s]       |                      [01;35m[K~~^~~~~~~~[m[K
+[8.054s] [100%] [1m[32mLinking CXX executable hi_filter[0m
+[8.404s] [100%] Built target hi_filter
+[8.413s] Invoked command in '/home/taewook/carla_workspace/src/hi_filter/build/hi_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taewook/carla_workspace/install/py_advanced_lane_lines:/home/taewook/carla_workspace/install/monodetr_dgwa:/home/taewook/carla_workspace/install/face_aware_3dbbox:/opt/ros/humble /home/taewook/.local/bin/cmake --build /home/taewook/carla_workspace/src/hi_filter/build/hi_filter -- -j24 -l24
+[8.463s] Invoking command in '/home/taewook/carla_workspace/src/hi_filter/build/hi_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taewook/carla_workspace/install/py_advanced_lane_lines:/home/taewook/carla_workspace/install/monodetr_dgwa:/home/taewook/carla_workspace/install/face_aware_3dbbox:/opt/ros/humble /home/taewook/.local/bin/cmake --install /home/taewook/carla_workspace/src/hi_filter/build/hi_filter
+[8.513s] -- Install configuration: ""
+[8.513s] -- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/lib/hi_filter/hi_filter
+[8.515s] -- Set non-toolchain portion of runtime path of "/home/taewook/carla_workspace/src/hi_filter/install/hi_filter/lib/hi_filter/hi_filter" to ""
+[8.515s] -- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/ament_index/resource_index/package_run_dependencies/hi_filter
+[8.516s] -- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/ament_index/resource_index/parent_prefix_path/hi_filter
+[8.516s] -- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/environment/ament_prefix_path.sh
+[8.516s] -- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/environment/ament_prefix_path.dsv
+[8.516s] -- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/environment/path.sh
+[8.516s] -- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/environment/path.dsv
+[8.516s] -- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/local_setup.bash
+[8.516s] -- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/local_setup.sh
+[8.516s] -- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/local_setup.zsh
+[8.516s] -- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/local_setup.dsv
+[8.516s] -- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/package.dsv
+[8.516s] -- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/ament_index/resource_index/packages/hi_filter
+[8.516s] -- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/cmake/hi_filterConfig.cmake
+[8.516s] -- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/cmake/hi_filterConfig-version.cmake
+[8.516s] -- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/package.xml
+[8.517s] Invoked command in '/home/taewook/carla_workspace/src/hi_filter/build/hi_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taewook/carla_workspace/install/py_advanced_lane_lines:/home/taewook/carla_workspace/install/monodetr_dgwa:/home/taewook/carla_workspace/install/face_aware_3dbbox:/opt/ros/humble /home/taewook/.local/bin/cmake --install /home/taewook/carla_workspace/src/hi_filter/build/hi_filter

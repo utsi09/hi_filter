@@ -1,0 +1,29 @@
+[0.006s] Invoking command in '/home/taewook/carla_workspace/src/hi_filter/build/hi_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taewook/carla_workspace/install/py_advanced_lane_lines:/home/taewook/carla_workspace/install/monodetr_dgwa:/home/taewook/carla_workspace/install/face_aware_3dbbox:/opt/ros/humble /home/taewook/.local/bin/cmake --build /home/taewook/carla_workspace/src/hi_filter/build/hi_filter -- -j24 -l24
+[0.083s] [ 50%] [32mBuilding CXX object CMakeFiles/hi_filter.dir/src/hi_filter_node.cpp.o[0m
+[2.394s] [01m[K/home/taewook/carla_workspace/src/hi_filter/src/hi_filter_node.cpp:[m[K In member function ‘[01m[Kvoid HiFilter::lidar_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.394s] [01m[K/home/taewook/carla_workspace/src/hi_filter/src/hi_filter_node.cpp:34:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.394s]    34 |         for(int i=0; [01;35m[Ki < p_size[m[K; i++){
+[2.394s]       |                      [01;35m[K~~^~~~~~~~[m[K
+[5.715s] [100%] [1m[32mLinking CXX executable hi_filter[0m
+[6.079s] [100%] Built target hi_filter
+[6.082s] Invoked command in '/home/taewook/carla_workspace/src/hi_filter/build/hi_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taewook/carla_workspace/install/py_advanced_lane_lines:/home/taewook/carla_workspace/install/monodetr_dgwa:/home/taewook/carla_workspace/install/face_aware_3dbbox:/opt/ros/humble /home/taewook/.local/bin/cmake --build /home/taewook/carla_workspace/src/hi_filter/build/hi_filter -- -j24 -l24
+[6.131s] Invoking command in '/home/taewook/carla_workspace/src/hi_filter/build/hi_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taewook/carla_workspace/install/py_advanced_lane_lines:/home/taewook/carla_workspace/install/monodetr_dgwa:/home/taewook/carla_workspace/install/face_aware_3dbbox:/opt/ros/humble /home/taewook/.local/bin/cmake --install /home/taewook/carla_workspace/src/hi_filter/build/hi_filter
+[6.180s] -- Install configuration: ""
+[6.180s] -- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/lib/hi_filter/hi_filter
+[6.181s] -- Set non-toolchain portion of runtime path of "/home/taewook/carla_workspace/src/hi_filter/install/hi_filter/lib/hi_filter/hi_filter" to ""
+[6.181s] -- Up-to-date: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/ament_index/resource_index/package_run_dependencies/hi_filter
+[6.181s] -- Up-to-date: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/ament_index/resource_index/parent_prefix_path/hi_filter
+[6.181s] -- Up-to-date: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/environment/ament_prefix_path.sh
+[6.181s] -- Up-to-date: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/environment/ament_prefix_path.dsv
+[6.181s] -- Up-to-date: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/environment/path.sh
+[6.182s] -- Up-to-date: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/environment/path.dsv
+[6.182s] -- Up-to-date: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/local_setup.bash
+[6.182s] -- Up-to-date: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/local_setup.sh
+[6.182s] -- Up-to-date: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/local_setup.zsh
+[6.182s] -- Up-to-date: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/local_setup.dsv
+[6.182s] -- Installing: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/package.dsv
+[6.182s] -- Up-to-date: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/ament_index/resource_index/packages/hi_filter
+[6.182s] -- Up-to-date: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/cmake/hi_filterConfig.cmake
+[6.182s] -- Up-to-date: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/cmake/hi_filterConfig-version.cmake
+[6.182s] -- Up-to-date: /home/taewook/carla_workspace/src/hi_filter/install/hi_filter/share/hi_filter/package.xml
+[6.183s] Invoked command in '/home/taewook/carla_workspace/src/hi_filter/build/hi_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taewook/carla_workspace/install/py_advanced_lane_lines:/home/taewook/carla_workspace/install/monodetr_dgwa:/home/taewook/carla_workspace/install/face_aware_3dbbox:/opt/ros/humble /home/taewook/.local/bin/cmake --install /home/taewook/carla_workspace/src/hi_filter/build/hi_filter
