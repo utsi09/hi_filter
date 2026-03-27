@@ -1,5 +1,5 @@
 # LiDAR High-Intensity Filter (ROS 2 & PCL)
-높은 intensity 값을 가진 포인트를 필터링 해주는 프로그램
+높은 intensity 값을 가진 포인트를 필터링 해주는 프로그램(토이프로젝트)
 
 
 ## 실행 결과
